@@ -1,38 +1,72 @@
+header {
+    background-color: #333;
+    color: aqua;
+    font-size: 1.5em;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .App {
-  text-align: center;
+    background-color: #eee;
+    margin: 0px;
+    height: 800px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1.2em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pwrdError {
+    display: block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container {
+    padding: 20px;
+    margin: auto;
+    width: 50%;
 }
 
-.App-link {
-  color: #61dafb;
+input {
+    margin-bottom: 15px;
+    width: 92%;
+    font-size: 1.2em;
+    height: 28px;
+    border-radius: 3px;
+    border: 1px solid #333;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input[type=submit] {
+    margin-top: 20px;
+    background-color: #333;
+    color: aqua;
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 35px;
+    text-align: center;
+    font-size: 1.4em;
+}
+
+input[type=submit]:hover {
+    background-color: aqua;
+    color: #000;
+}
+
+.fas {
+    font-size: 1.2em;
+    margin-right: 15px;
+}
+
+.error {
+    color: red;
+    display: block;
+}
+
+.fa-times-circle {
+    color: red;
+}
+
+.fa-check-circle {
+    color: green;
 }
